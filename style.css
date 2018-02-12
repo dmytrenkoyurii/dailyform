@@ -1,0 +1,136 @@
+.card {
+	width: 800px;
+	height: 600px;
+	margin: 50px;
+	background-image: url(images/card-bg.png);
+	background-size: contain;
+		border-radius: 5px;
+}
+
+.card__create {
+	width: 460px;
+	height: 470px;
+	margin-left: 170px;
+	margin-top: 60px;
+	background-color: white;
+		position: absolute;
+	border-radius: 5px;
+}
+
+.card__form {
+	margin: 30px;
+}
+
+.card__formname {
+  font-size: 24px;
+  font-family: "Arial";
+  color: rgb(27, 28, 29);
+  font-weight: bold;
+}
+
+.card__formsuname {
+  font-size: 13.5px;
+  font-family: "Arial";
+  color: rgb(122, 123, 127);
+}
+
+.card__formsuname--a {
+	  text-decoration: none;
+	  color: red;
+}
+
+.card__formtext {
+	font-size: 12.5px;
+	font-family: "Arial";
+	color: rgb(122, 123, 127);
+}
+.card__formtext--a {
+	  text-decoration: none;
+	  color: red;
+}
+
+.firstname {
+	width: 48%;
+	border-radius: 4px;
+	background-color: #f0f0f0;
+	border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 21px;
+    margin-bottom: 8px;
+    margin-right: 4px;
+    border-bottom-width: 0px;
+    border-left-width: 0px;
+    border-top-width: 0px;
+    border-right-width: 0px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    padding-left: 15px;
+}
+.lastname {
+	width: 48%;
+	border-radius: 4px;
+		background-color: #f0f0f0;
+	border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 21px;
+    margin-bottom: 8px;
+    margin-left: 4px;
+    border-bottom-width: 0px;
+    border-left-width: 0px;
+    border-top-width: 0px;
+    border-right-width: 0px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    padding-left: 15px;
+}
+
+input[type=email] {
+	width: 99%;
+	background-color: #f0f0f0;
+	border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    border-bottom-width: 0px;
+    border-left-width: 0px;
+    border-top-width: 0px;
+    border-right-width: 0px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    padding-left: 15px;
+}
+
+input[type=password] {
+	width: 99%;
+	background-color: #f0f0f0;
+	border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    border-bottom-width: 0px;
+    border-left-width: 0px;
+    border-top-width: 0px;
+    border-right-width: 0px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    padding-left: 15px;
+}
+
+
+input[type=submit] {
+    width: 99%;
+    background-color: #ea355a;
+    font-size: 18px;
+    font-family: "Arial";
+    font-weight: bold;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #bd1962;
+}
